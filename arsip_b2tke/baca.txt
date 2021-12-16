@@ -1,0 +1,4 @@
+Gunakan PHP 7 ke atas
+ubah koneksi php pada file functions.php
+import database ke phpmyadmin
+Enjoy!

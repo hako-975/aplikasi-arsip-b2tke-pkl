@@ -1,0 +1,125 @@
+@media print{
+    .h3, .menu, .aksi, .konten_hilang, .marquee, .pagination{
+        display: none!important;
+        color: black!important;
+    }
+    .kode_arsip{
+        padding: 0!important;
+        border: none!important;
+        margin: 0!important;
+    }
+    table, table tr, table tr th, table tr td{
+        border: 2px black solid!important;
+        color: black!important;
+    }
+
+}
+section{
+    min-height: 650px!important;
+}
+.link a:hover{
+    font-size: 17px;
+}
+
+.shadow-box{
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+.bg-navbar{
+    background-image: url(../img/bar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    z-index: 99999!important;
+}
+nav{
+    z-index: 99999!important;
+}
+.bg{
+	background-color: #f4f4f4;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.background-img{
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+}
+.card-img-top{
+    width: 40%!important;
+}
+
+.login{
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+.autocomplete-suggestions {
+    border: 1px solid #999;
+    background: #FFF;
+    overflow: auto;
+}
+
+.autocomplete-suggestion {
+    padding: 2px 5px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.autocomplete-selected {
+    background: #F0F0F0;
+}
+
+.autocomplete-suggestions strong {
+    font-weight: normal;
+    color: #3399FF;
+}
+
+.autocomplete-group {
+    padding: 2px 5px;
+}
+
+.autocomplete-group strong {
+    display: block;
+    border-bottom: 1px solid #000;
+}
+
+.footer{
+    height:50px;
+    line-height:50px;
+    background:#153451;
+    color:#fff;
+    padding-left: 3%;
+    bottom:0%;
+    margin-top: 2%;
+    width:100%;
+}
+
+.button-color{
+    background-color: blue;
+    color: #fff;
+}
+
+.button-color:hover{
+    background-color: darkblue;
+    color: #ddd;
+}
+
+.bg-supergraphic{
+    background-image: url(../img/bg-graphic.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-supergraphics{
+    background-image: url(../img/bg-graphics.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-supergraphicss{
+    background-image: url(../img/bg-graphicss.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
